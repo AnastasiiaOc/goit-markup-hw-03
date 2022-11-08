@@ -149,7 +149,6 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid yellowgreen;
 }
 
 .hero-title {
@@ -189,7 +188,6 @@ ul {
 
  .container-advantages{
   display: flex;
-  outline: 1px solid rgb(205, 50, 50);
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -220,7 +218,6 @@ ul {
  
 }
 .advantages-list {
-  outline: 1px solid rgb(99, 205, 50);
   font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.03em;
@@ -246,7 +243,6 @@ ul {
 .container-actions{
   display:flex;
   flex-direction: column;
-  outline: 1px solid rgb(205, 50, 50);
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -290,7 +286,6 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid yellowgreen;
     background-color: var(--secondary-background-color);
 }
 
