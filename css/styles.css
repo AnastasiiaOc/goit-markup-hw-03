@@ -496,11 +496,6 @@ ul {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.projects:hover,
-.projects:focus {
-  border: 1px solid var(--logo-hover-color);
-}
-
 .project-border{
   border: 1px solid var(--card-background-color);
 }
