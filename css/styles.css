@@ -48,6 +48,8 @@ ul {
 
 .top-page {
   background-color: var(--main-background-color);
+  border-bottom: 1px solid #ECECEC;
+ 
 }
 
 .container-header {
@@ -61,9 +63,8 @@ ul {
   padding-bottom: 32px;
 
     background-color: var(--head-background-color);
-
-    outline: 1px solid rgb(205, 50, 50);
 } 
+
 
 .logo {
   color: var(--black-logo-color);
@@ -73,6 +74,7 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .part-logo {
   color: var(--logo-hover-color);
   font-family: "Raleway";
@@ -138,13 +140,12 @@ ul {
 
 .hero {
   background-color: var(--main-background-color);
-  /* width: 1600px; */
 } 
  
 .container-hero {
   background-color: var(--footer-background-color);
     width: 1200px;
-    height: 600px;
+     height: 600px;  
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -212,7 +213,7 @@ ul {
   padding-right: 15px;
   display: flex;
   gap: 30px;
-  margin-top: 94px;
+  padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
      
@@ -256,8 +257,9 @@ ul {
 
 .action-section{
   background-color: var(--main-background-color);
-
 }
+
+
 .actions {
   font-size: 36px;
   line-height: 1.1666;
@@ -265,18 +267,19 @@ ul {
   letter-spacing: 0.03em;
 
   margin-bottom: 50px;
-
-
 }
+
+
 .actions-illustrations {
   list-style: none;
 
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  margin-bottom: 94px;
-
+  padding-bottom: 94px;
 }
+
+
 /*section Наша команда*/
 
 .container-team{
@@ -308,9 +311,7 @@ ul {
 }
 .team-list {
   list-style: none;
-
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 30px;
  } 
 
@@ -348,6 +349,7 @@ ul {
   margin-bottom: 30px;
 }
 
+
 /*-----------design footer HTML and portfolio------------*/
 
 .container-footer
@@ -359,14 +361,14 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
    margin: 0 auto;
-  background-color: var(--footer-background-color);
-    outline: 1px solid yellowgreen;
 
+  background-color: var(--footer-background-color);
 }
 
 .bottom-page {
   background-color: var(--main-background-color);
 }
+
 .logo-footer {
   color: var(--white-logo-hero-color);
   font-style: normal;
@@ -406,9 +408,29 @@ ul {
 
 /* ------------------PORTFOLIO MAIN------------------------ */
 
+.buttons{
+  background-color: var(--main-background-color);
+}
+.container-buttons{
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 94px;
+  background-color: var(--head-background-color);
+}
+
 .button-list {
   font-family: inherit;
   list-style: none;
+  gap: 8px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-item {
@@ -421,13 +443,40 @@ ul {
   background-color: var(--secondary-background-color);
   border: none;
   cursor: pointer;
+  border-radius: 4px;
+
+  /* margin-top: 94px; */
+  margin-bottom: 50px;
+
+
 }
 .button-item:hover,
 .button-item:focus {
   background-color: var(--logo-hover-color);
   color: var(--white-logo-hero-color);
 }
+
+
 /* section projects */
+
+.projects-global{
+  background-color: var(--main-background-color);
+}
+
+.container-projects{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px; 
+
+  padding-bottom: 94px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: var(--head-background-color);
+}
+
 
 .projects-hidden {
   display: none;
@@ -435,6 +484,12 @@ ul {
 
 .projects-list {
   list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  column-gap: 30px; 
+  row-gap: 30px;
 }
 
 .projects {
@@ -442,7 +497,8 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   background-color: var(--white-logo-hero-color);
-  border: 1px solid var(--card-background-color);
+
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .projects:hover,
@@ -450,10 +506,18 @@ ul {
   border: 1px solid var(--logo-hover-color);
 }
 
+.project-border{
+  border: 1px solid var(--card-background-color);
+}
+ 
+
 .project-heading {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-top: 20px;
+  margin-left: 24px;
 }
 
 .project-description {
@@ -461,7 +525,16 @@ ul {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--paragraps-color);
+
+  margin-top: 4px;
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
+  .project-image{
+  display: block;
+ } 
+
+
 
 
  
