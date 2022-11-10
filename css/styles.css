@@ -50,8 +50,8 @@ ul {
 
   border-bottom: 1px solid #ECECEC;
   background-color: var(--head-background-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
  
 }
 
@@ -171,6 +171,8 @@ ul {
   letter-spacing: 0.06em;
   color: var(--white-logo-hero-color);
   background-color: var(--logo-hover-color);
+
+  padding: 10px 32px;
 
   display: flex;
   align-items: center;
@@ -295,9 +297,6 @@ ul {
   line-height: 1.1666;
   text-align: center;
   letter-spacing: 0.03em;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
 
   margin-bottom: 50px;
 }
@@ -320,14 +319,17 @@ ul {
   border: 1px solid var(--logo-hover-color);
 }
 
+.team-text{
+  padding-top: 30px; 
+  padding-bottom: 30px;
+}
+
 .team-members {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
-
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -337,8 +339,6 @@ ul {
   line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
-
-  margin-bottom: 30px;
 }
 
 
@@ -378,7 +378,8 @@ ul {
 }
 
 .link-address,
-.link-list {
+.link-list,
+.link-phone {
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
@@ -386,13 +387,20 @@ ul {
   letter-spacing: 0.03em;
   color: var(--white-logo-hero-color);
 
-  margin-bottom: 9px;
   display:flex;
 }
 
-.link-list {
+.link-address,
+.link-list{
+  margin-bottom: 9px;
+}
+
+
+.link-list, 
+.link-phone {
   color: var(--white-transparent-color);
 }
+
 
 /* ---------PORTFOLIO MAIN---------- */
 /* BUTTONS AND PROJECTS */
